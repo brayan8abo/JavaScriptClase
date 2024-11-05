@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Mi Proyecto005"
 include(":app")
- 
+include(":app:miproyecto005-2")
+include(":app:miproyecto006")

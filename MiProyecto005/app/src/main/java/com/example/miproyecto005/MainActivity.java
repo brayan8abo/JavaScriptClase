@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             double num1 = Double.parseDouble(et1.getText().toString());
             double num2 = Double.parseDouble(et2.getText().toString());
             double suma = num1 + num2;
-            resultado = resultado + "La suma es: " + String.valueOf(suma) + "\n";
+            resultado = resultado + "La suma es: " + String.valueOf(suma) + "\n";//por que pone el rsultado y le pone un salto
             tv1.setText(resultado);
         }
         if (check2.isChecked() == true) {
